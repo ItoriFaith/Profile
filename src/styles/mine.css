@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Heebo&family=Urbanist:ital,wght@0,400;1,300&display=swap');
+
+#prof-pic{
+    width: 100%;
+    max-height: 20%;
+    border-radius: 25px 25px 0 0 ;
+    
+}
+#info-head{
+    font-size: 30px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+
+    font-weight: 500;
+
+}
+#info-desc{
+    font-size: 23px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+
+
+}
+#info-link{
+    text-decoration: none;
+    color:  rgb(10, 151, 233);
+    padding: 12px;
+    width: 50%;
+}
+#info-link:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+#email:hover{
+    color: blue;
+}
+#email{
+    color: white;
+    cursor: pointer;
+}
+#linkedin:hover{
+
+    color: pink;
+}
+#linkedin{
+    color: blue;
+    cursor: pointer;
+
+    
+    
+}
+
+.persona-header{
+    color: white;
+    margin-left: 36px;
+    text-align: start;
+    font-family: 'Heebo', sans-serif;
+}
+.persona-para{
+    color: white;
+    margin-left: 36px;
+    margin-right: 36px;
+    text-align: justify;
+    font-family: 'Heebo', sans-serif;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(10, 151, 233);
+    border-radius: 0 0 23px 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+   padding: 0 12px;
+   font-size: 26px;
+}
+#twitter{
+    color: rgb(8, 8, 235);
+}
+#twitter:hover{
+    color: pink;
+
+}
+#facebook{
+    color: blue;
+}
+#facebook:hover{
+    color: pink;
+}
+#instagram{
+    color: crimson;
+
+}
+#instagram:hover{
+    color: pink;
+}
+
+#github{
+    color: black;
+
+}
+#github:hover{
+    color: pink;
+}
+#resume{
+background-color: rgb(19, 17, 17);
+color: white;
+padding: 2px;
+text-decoration: none;
+font-family: 'Heebo', sans-serif;
+border: 0.5px solid white;
+border-radius: 5px;
+
+}
+
+.resume-div{
+    margin: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .prof-pic{
+        max-width: 100%;
+        display: block;
+    }
+    .persona-header, .persona-para, #info-link{
+        display: block;
+        justify-content: center;
+        padding: 8px;
+        text-align: center;
+    }
+    
+
+    
+    .persona{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .info-link{
+        width: 100%;
+        margin-left:  8px;
+        margin-right: 8px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+}
+
+
+
+
