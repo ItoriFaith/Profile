@@ -132,7 +132,7 @@ border-radius: 5px;
     .persona-header, .persona-para, #info-link{
         display: block;
         justify-content: center;
-        padding: 8px;
+        padding: 6px;
         text-align: center;
     }
     
